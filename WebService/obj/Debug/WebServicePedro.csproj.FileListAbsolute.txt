@@ -1,0 +1,9 @@
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\bin\Debug\WebService.exe.config
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\bin\Debug\WebService.exe
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\bin\Debug\WebService.pdb
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebServicePedro.csprojResolveAssemblyReference.cache
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebService.GUI.InfoPais.resources
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebService.Properties.Resources.resources
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebServicePedro.csproj.GenerateResource.Cache
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebService.exe
+c:\users\pedro\documents\visual studio 2015\Projects\PedroAbarcaQuiz\WebService\obj\Debug\WebService.pdb

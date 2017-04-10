@@ -1,0 +1,96 @@
+﻿namespace WebService.GUI
+{
+    partial class InfoPais
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.bttConsultar = new System.Windows.Forms.Button();
+            this.txtPais = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.listResut = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // bttConsultar
+            // 
+            this.bttConsultar.Location = new System.Drawing.Point(258, 33);
+            this.bttConsultar.Name = "bttConsultar";
+            this.bttConsultar.Size = new System.Drawing.Size(99, 23);
+            this.bttConsultar.TabIndex = 0;
+            this.bttConsultar.Text = "Consultar";
+            this.bttConsultar.UseVisualStyleBackColor = true;
+            this.bttConsultar.Click += new System.EventHandler(this.bttConsultar_Click);
+            // 
+            // txtPais
+            // 
+            this.txtPais.Location = new System.Drawing.Point(114, 35);
+            this.txtPais.Name = "txtPais";
+            this.txtPais.Size = new System.Drawing.Size(106, 20);
+            this.txtPais.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nombre del Pais:";
+            // 
+            // listResut
+            // 
+            this.listResut.FormattingEnabled = true;
+            this.listResut.Location = new System.Drawing.Point(12, 128);
+            this.listResut.Name = "listResut";
+            this.listResut.Size = new System.Drawing.Size(342, 95);
+            this.listResut.TabIndex = 3;
+            // 
+            // InfoPais
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.ClientSize = new System.Drawing.Size(407, 264);
+            this.Controls.Add(this.listResut);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPais);
+            this.Controls.Add(this.bttConsultar);
+            this.Name = "InfoPais";
+            this.Text = "Información por País";
+            this.Load += new System.EventHandler(this.InfoPais_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button bttConsultar;
+        private System.Windows.Forms.TextBox txtPais;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ListBox listResut;
+    }
+}
